@@ -41,17 +41,17 @@
 
 // let edad = Number(prompt("¿Cuantos años tenes?"))
 
-// console.log(isNaN(edad))
+// console.log(edad)
 
 // console.log(edad + 20)
 // console.log(13)
 
-let peso = Number(prompt("Introduce tu peso en kilogramos: "))
+// let peso = Number(prompt("Introduce tu peso en kilogramos: "))
 
 
-let altura = Number(prompt("Introduce tu altura en metros: "))
+// let altura = Number(prompt("Introduce tu altura en metros: "))
 
 
-let imc = peso/(altura * altura)
+// let imc = peso/(altura * altura)
 
-alert("Tu indice de masa corporal es de: " + imc.toFixed(2))
+// alert("Tu indice de masa corporal es de: " + imc.toFixed(2))

@@ -1,0 +1,138 @@
+:root {
+    --color-light-yellow: #f1f7cd;
+    --color-light-green: #d3f7cd;
+    --color-medium-green: #b5f7cd;
+    --color-dark-brown: #403a26;
+    --color-olive-gray: #81876c;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carritoIcon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-medium-green);
+    color: var(--color-dark-brown);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+#carritoIcon img{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#carrito{
+    position: fixed;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    top: 0;
+    right: -100%;
+    transition: right 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    overflow-y: auto;
+}
+
+#carrito.active{
+    right: 0;
+}
+
+#total {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--color-medium-green);
+    color: var(--color-dark-brown);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-light-yellow);
+    color: var(--color-dark-brown);
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.main{
+    padding: 20px;
+}
+
+.productos{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-light-green);
+    gap: 20px;
+    border-radius: 10px;
+}
+
+/* Prodcuto */
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: var(--color-medium-green);
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto .img{
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+
+@media (min-width: 768px){
+    .productos{
+        max-width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 30px;
+    }
+
+    #carrito{
+        width: 400px;
+    }
+
+}
+
+.pedidoDeJuan{
+    display: flex;
+}

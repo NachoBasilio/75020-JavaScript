@@ -1,0 +1,84 @@
+/* Normalizador CSS básico */
+
+/* Configuración general */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuración del `html` y `body` */
+html {
+    line-height: 1.15; /* Corrige el espacio entre líneas en algunos navegadores */
+    -webkit-text-size-adjust: 100%; /* Previene el cambio de tamaño del texto en Safari */
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Eliminar el estilo por defecto de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Configuración de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Configuración de enlaces */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botones y elementos interactivos */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+
+/* Eliminar bordes por defecto en botones en algunos navegadores */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Ajustes para tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0;
+}
+
+/* Ajustes para elementos multimedia */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    display: block;
+}

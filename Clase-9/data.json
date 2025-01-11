@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cuchillo Chef",
+        "precio": 25.99,
+        "imagen": "https://png.pngtree.com/png-vector/20220923/ourmid/pngtree-chef-knife-design-png-image_6212048.png",
+        "desc": "Cuchillo profesional de acero inoxidable para cortar con precisión."
+    },
+    {
+        "id": 2,
+        "nombre": "Tabla de cortar",
+        "precio": 12.49,
+        "imagen": "https://static.vecteezy.com/system/resources/previews/009/887/148/non_2x/wooden-chopping-board-free-png.png",
+        "desc": "Tabla de cortar de bambú con tratamiento antibacteriano."
+    },
+    {
+        "id": 3,
+        "nombre": "Batidora de mano",
+        "precio": 45.00,
+        "imagen": "https://images.vexels.com/media/users/3/130844/isolated/preview/ca9051e1dc115f565af0e32e74f68cef-icono-de-herramienta-batidora-de-mano.png",
+        "desc": "Batidora de mano con múltiples velocidades y accesorios incluidos."
+    },
+    {
+        "id": 4,
+        "nombre": "Sartén antiadherente",
+        "precio": 30.00,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_831000-MLU72565844722_112023-F.webp",
+        "desc": "Sarten que no se pegan los huevo"
+    },
+    {
+        "id": 5,
+        "nombre": "Set de cucharas medidoras",
+        "precio": 8.99,
+        "imagen": "https://acdn.mitiendanube.com/stores/004/033/662/products/20221031125030_-91d55ed2c9e11de72a17085052594015-1024-1024.png",
+        "desc": "Juego de cucharas medidoras de acero inoxidable para precisión en recetas."
+    },
+    {
+        "id": 6,
+        "nombre": "Procesador de alimentos",
+        "precio": 89.99,
+        "imagen": "https://png.pngtree.com/png-vector/20240723/ourmid/pngtree-d-photo-of-personal-blender-mixer-food-processor-on-transparent-background-png-image_13216575.png",
+        "desc": "Procesador multifunción con cuchillas intercambiables para triturar y picar."
+    },
+    {
+        "id": 7,
+        "nombre": "Horno tostador",
+        "precio": 65.50,
+        "imagen": "https://todoaplazo.com/images/products/95c52faf-3914-4faa-b3d8-9409c96fe567-BDH-47.png",
+        "desc": "Horno tostador compacto con temporizador y múltiples niveles de temperatura."
+    },
+    {
+        "id": 8,
+        "nombre": "Taza medidora",
+        "precio": 5.99,
+        "imagen": "https://png.pngtree.com/png-clipart/20240306/original/pngtree-measuring-cup-object-png-image_14523036.png",
+        "desc": "Taza medidora de vidrio resistente con mediciones en ml y oz."
+    },
+    {
+        "id": 9,
+        "nombre": "Molinillo de especias",
+        "precio": 15.75,
+        "imagen": "https://essen.cl/cdn/shop/files/MOLINILLO_DE_ESPECIAS_TRIP_1_500x.png?v=1688431219",
+        "desc": "Molinillo manual para especias con ajuste de grosor de molienda."
+    },
+    {
+        "id": 10,
+        "nombre": "Batidora de pedestal",
+        "precio": 120.00,
+        "imagen": "https://fussetti.b-cdn.net/4528-large_default/batidora-de-mano-bd-mx1003-pedestal.jpg",
+        "desc": "Batidora de pedestal con múltiples accesorios y potencia ajustable."
+    }
+]

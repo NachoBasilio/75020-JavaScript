@@ -123,9 +123,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         const pokemonDetalles = await Promise.all(
             data.results.map(async (el) => (await fetch(el.url)).json())
         )
+
         pokemonDetalles.forEach(el => {
             creadoraDeCards(el)
         })
+
         agregadoraDeEventos()
     } catch (error) {
         console.error(error)
